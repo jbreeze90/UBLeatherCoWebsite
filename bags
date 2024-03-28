@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bags Collection</title>
+    <style>
+        body { font-family: 'Times New Roman', serif; text-align: center; padding: 50px; }
+        .product { margin: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; display: inline-block; }
+        a { background: #8B4513; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        a:hover { background: #A0522D; }
+    </style>
+</head>
+<body>
+    <h1>Bags Collection</h1>
+    <div class="product">
+        <h2>Dopp Kit</h2>
+        <p>$70.00</p>
+        <a href="#">Buy Now</a>
+    </div>
+    <div class="product">
+        <h2>Coin Bag</h2>
+        <p>$40.00</p>
+        <a href="#">Buy Now</a>
+    </div>
+    <a href="leather-goods-index.html">Back to Leather Goods</a>
+</body>
+</html>
