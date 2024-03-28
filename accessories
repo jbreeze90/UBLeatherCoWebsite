@@ -6,9 +6,19 @@
     <title>Accessories Collection</title>
     <style>
         body { font-family: 'Times New Roman', serif; text-align: center; padding: 50px; }
-        .product { margin: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; display: inline-block; }
-        a { background: #8B4513; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
-        a:hover { background: #A0522D; }
+        .product { margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; display: inline-block; }
+        .nav-links a {
+            background: #8B4513;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px auto;
+            display: block;
+            width: fit-content;
+        }
+        .nav-links a:hover { background: #A0522D; }
+        .nav-links { text-align: center; margin-top: 20px; }
     </style>
 </head>
 <body>
@@ -16,13 +26,16 @@
     <div class="product">
         <h2>Lanyard</h2>
         <p>$30.00</p>
-        <a href="#">Buy Now</a>
+        <a href="#" style="margin: 0 auto; display: block;">Buy Now</a>
     </div>
     <div class="product">
         <h2>Pencil Case</h2>
         <p>$45.00</p>
-        <a href="#">Buy Now</a>
+        <a href="#" style="margin: 0 auto; display: block;">Buy Now</a>
     </div>
-    <a href="leather-goods-index.html">Back to Leather Goods</a>
+    <div class="nav-links">
+        <a href="leather-goods-index.html">Back to Leather Goods</a>
+        <a href="index.html">Back to Home</a>
+    </div>
 </body>
 </html>
