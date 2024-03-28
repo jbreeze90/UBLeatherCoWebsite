@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belts</title>
+    <style>
+        body { font-family: 'Times New Roman', serif; text-align: center; padding: 50px; }
+        select, option { padding: 5px; margin: 5px; }
+        .form-group { margin-bottom: 20px; }
+        a { background: #8B4513; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; }
+        a:hover { background: #A0522D; }
+    </style>
+</head>
+<body>
+    <h1>Customize Your Belt</h1>
+    <form>
+        <div class="form-group">
+            <label for="waist-size">Waist Size (inches):</label>
+            <select id="waist-size" name="waist-size">
+                <!-- Populate with actual sizes -->
+                <option value="30">30"</option>
+                <option value="32">32"</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="width">Width (inches):</label>
+            <select id="width" name="width">
+                <!-- Populate with actual widths -->
+                <option value="1">1"</option>
+                <option value="1.5">1.5"</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="hardware">Hardware:</label>
+            <select id="hardware" name="hardware">
+                <option value="brass">Brass</option>
+                <option value="matte-black">Matte Black</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="leather-type">Type of Leather:</label>
+            <select id="leather-type" name="leather-type">
+                <option value="black">Black</option
