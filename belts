@@ -3,44 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belts</title>
+    <title>Belts Collection</title>
     <style>
         body { font-family: 'Times New Roman', serif; text-align: center; padding: 50px; }
-        select, option { padding: 5px; margin: 5px; }
-        .form-group { margin-bottom: 20px; }
-        a { background: #8B4513; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; }
-        a:hover { background: #A0522D; }
+        .product { margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; display: inline-block; }
+        .nav-links a {
+            background: #8B4513;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px auto;
+            display: block;
+            width: fit-content;
+        }
+        .nav-links a:hover { background: #A0522D; }
+        .nav-links { text-align: center; margin-top: 20px; }
     </style>
 </head>
 <body>
-    <h1>Customize Your Belt</h1>
-    <form>
-        <div class="form-group">
-            <label for="waist-size">Waist Size (inches):</label>
-            <select id="waist-size" name="waist-size">
-                <!-- Populate with actual sizes -->
-                <option value="30">30"</option>
-                <option value="32">32"</option>
-                <!-- Add more options as needed -->
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="width">Width (inches):</label>
-            <select id="width" name="width">
-                <!-- Populate with actual widths -->
-                <option value="1">1"</option>
-                <option value="1.5">1.5"</option>
-                <!-- Add more options as needed -->
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="hardware">Hardware:</label>
-            <select id="hardware" name="hardware">
-                <option value="brass">Brass</option>
-                <option value="matte-black">Matte Black</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="leather-type">Type of Leather:</label>
-            <select id="leather-type" name="leather-type">
-                <option value="black">Black</option
+    <h1>Belts Collection</h1>
+    <p>Select your perfect belt</p>
+    <label for="waistSize">Waist Size (inches):</label>
+    <select id="waistSize">
+        <option value="30">30"</option>
+        <option value="32">32"</option>
+        <option value="34">34"</option>
+        <option value="36">36"</option>
+        <option value="38">38"</option>
+    </select>
+    <br>
+    <label for="beltWidth">Belt Width (inches):</label>
+    <select id="beltWidth">
+        <option value="1">1"</option>
+        <option value="1.5">1.5"</option>
+        <option value="2">2"</option>
+    </select>
+    <br>
+    <label for="hardware">Hardware:</label>
+    <select id="hardware">
+        <option value="brass">Brass</option>
+        <option value="matteBlack">Matte Black</option>
+    </select>
+    <br>
+    <label for="leatherType">Type of Leather:</label>
+    <select id="leatherType">
+        <option value="black">Black</option>
+        <option value="tan">Tan</option>
+        <option value="brown">Brown</option>
+    </select>
+    <br>
+    <button>Submit</button>
+    <div class="nav-links">
+        <a href="leather-goods-index.html">Back to Leather Goods</a>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>
